@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="_19xBedAndBreakfast.BBController">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <AssociationLine Name="gæster" Type="_19xBedAndBreakfast.Guest" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="4" Y="2.438" />
+        <Point X="2.75" Y="2.438" />
+        <Point X="2.75" Y="3.5" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAACQAAAACQAAAAAhEAAAAAAAAAIAAIAAgAAAAAAAA=</HashCode>
+      <FileName>BBController.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="dbm" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Field Name="gæster" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="_19xBedAndBreakfast.DataBaseManager">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACQAAAACAAAAAAAEAAQgAAAQEAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>DataBaseManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_19xBedAndBreakfast.Guest">
+    <Position X="2.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgABCAIAAQgAAEAAIQBAACEAAAAAAAAAA=</HashCode>
+      <FileName>Guest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_19xBedAndBreakfast.Værelse">
+    <Position X="7.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAAEAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Værelse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_19xBedAndBreakfast.Reservation">
+    <Position X="5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIABAABAABAAA=</HashCode>
+      <FileName>Reservation.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="g" />
+      <Field Name="v" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="_19xBedAndBreakfast.BBConsoleUI">
+    <Position X="0.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAGABAAAAAEAAAAAAAAIAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>BBConsoleUI.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="bbc" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
