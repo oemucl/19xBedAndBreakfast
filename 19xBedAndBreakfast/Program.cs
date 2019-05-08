@@ -10,7 +10,7 @@ namespace _19xBedAndBreakfast
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello world, no entry");
+            Console.WriteLine("Hello BB, no entry");
             Console.ReadKey();
         }
     }
